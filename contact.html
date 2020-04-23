@@ -85,71 +85,60 @@
 				</div>
 			</div>
 			<!-- bloc-0 END -->
-<!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
-				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
-
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+			<!-- bloc-6 -->
+			<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+				<div class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="text-center hero-bloc-text tc-white">Définissons ensemble votre projet de webdesign !</h1>
+							<p class="text-center mg-lg tc-white tight-width-whitespace">Nous sommes ravis que vous souhaitiez collaborer avec notre agence.</p>
+							<p class="text-center mg-lg tc-white tight-width-whitespace">Parlez-nous de votre projet en complétant le formulaire ci-dessous.</p>
+						</div>
 					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
-					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
-				</form>
+				</div>
 			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
+			<!-- bloc-6 END -->
+			<!-- bloc-7 -->
+			<div class="bloc bgc-white l-bloc" id="bloc-7">
+				<div class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-6">
+							<form id="form_1" method="post" action="form_1.php">
+								<div class="form-group">
+									<label for="name">Votre nom</label>
+									<input type="text" id="name" name="Votre nom" class="form-control" required autocomplete="on" placeholder="John DOE" pattern="[A-Za-z][- ]" maxlength="200" aria-label="Merci de renseigner votre nom, ce champ est oligatoire">
+								</div>
+								<div class="form-group">
+									<label for="email">Votre adresse email</label>
+									<input type="email" id="email" name="Votre email" class="form-control" required autocomplete="on" placeholder="johndoe@mail.fr" pattern="[A-Za-z][0-9][-_.]" maxlength="250" aria-label="Merci d'indiquer votre adresse email, ce champ est obligatoire">
+								</div>
+								<div class="form-group">
+									<label for="telephone">Votre numéro de téléphone</label>
+									<input type="tel" id="telephone" name="Vos coordonnées téléphoniques" class="form-control" required autocomplete="on" placeholder="0000000000" maxlength="13" minlength="10" pattern="[0-9] [-_. ]" aria-label="Merci d'indiquer votre numéro de téléphone pour que nous puissions vous rappeler">
+								</div>
+								<div class="form-group">
+									<label for="notoriete">Comment nous avez-vous connu ? </label>
+									<input type="text" id="notoriete" name="Notoriété" class="form-control" placeholder="moteur de recherche, réseaux sociaux, etc." pattern="[A-Za-z][0-9][-_.@& ]" autocomplete="on" maxlength="400" aria-label="Vous pouvez indiquer comment vous nous avez connu, ce champ n'est pas obligatoire">
+								</div>
+								<div class="form-group">
+									<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+									<textarea class="form-control" id="message" name="Votre projet" rows="4" cols="50" maxlength="1000" required placeholder="Mon projet de refonte de site" autocomplete="on" aria-label="Merci de préciser votre projet, ce champ est obligatoire"></textarea>
+								</div>
+								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Ci-après le bouton d'envoi de votre formulaire">Envoyer</button>
+							</form>
+						</div>
+						<div class="col-sm-6">
+							<p>
+								contact@lachouetteagence.com<br>04.00.00.00.00<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
+			<!-- bloc-7 END -->
+			<!-- ScrollToTop Button -->
+			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+			<!-- ScrollToTop Button END-->
 
 
 <!-- Footer - bloc-8 -->
