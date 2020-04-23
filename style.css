@@ -7,8 +7,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+.lien__logo--ff {
+    font-family: "Amina", cursive;
+    text-decoration: none;
+    color: #000;
+}
+
 a,
-button {
+button:focus {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -460,7 +467,7 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
+button:focus {
     outline: none!important;
 }
 
