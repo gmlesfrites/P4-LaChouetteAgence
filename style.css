@@ -7,8 +7,26 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+.lien__logo--ff {
+    @import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+    font-family: 'Amita', cursive;
+    justify-content : center;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.font-color-contrast {
+    color: #ffffff;
+}
+
+.blockquote__font--colorcontrast {
+    color: #4d4d4d;
+}
+
 a,
-button {
+button:focus {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -133,7 +151,7 @@ a:hover:focus {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover:focus,
@@ -231,7 +249,7 @@ a:hover:focus {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn:hover:focus,
@@ -253,7 +271,7 @@ a:hover:focus {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .panel .btn-wire,
@@ -347,7 +365,7 @@ a:hover:focus {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0);
     width: 26px;
 }
 
@@ -456,11 +474,11 @@ nav .caret {
 .btn-d,
 .btn-d:hover:focus,
 .btn-d:focus {
-    color: #FFF;
+    color: #ffffff;
     background: rgba(0, 0, 0, .3);
 }
 
-button {
+button:focus {
     outline: none!important;
 }
 
@@ -545,7 +563,7 @@ a[data-lightbox]:hover:focus::before {
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
-    color: #FFF;
+    color: #ffffff;
     font-weight: 100;
     z-index: 1;
     position: absolute;
@@ -578,7 +596,7 @@ a[data-lightbox]:hover:focus img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    color: #ffffff;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -587,7 +605,7 @@ a[data-lightbox]:hover:focus img {
 }
 
 .close-lightbox {
-    color: #FFF;
+    color: #ffffff;
     font-size: 30px;
     position: absolute;
     top: 20px;
@@ -604,7 +622,7 @@ a[data-lightbox]:hover:focus img {
 .next-lightbox:hover:focus,
 .prev-lightbox:hover:focus {
     opacity: 1.0;
-    color: #FFF;
+    color: #ffffff;
 }
 
 .next-lightbox,
@@ -651,7 +669,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -692,7 +710,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -723,11 +741,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #ffffff;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -736,7 +754,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -771,50 +789,50 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #94360A;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #94360A;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #94360A;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover:focus {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover:focus {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #94360a;
 }
 
 .ltc-atomic-tangerine:hover:focus {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.svg");
+    background-image: url("img/background-dots-bg.svg");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.svg");
+    background-image: url("img/background-lines-h2-bg.svg");
 }
 
 .bg-banniere {
@@ -946,7 +964,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: rgba(255, 255, 255);
     }
     .hero {
         padding: 50px 0;
