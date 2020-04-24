@@ -57,9 +57,24 @@
 		<!--Titre page-->
 		<title> La chouette agence - agence de Webdesign</title>
 		<!-- Titre page END -->
+		<!--Liens Google Fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<!--Liens Google Fonts END-->
+		<!-- Liens Font awesome -->
+		<script src="https://kit.fontawesome.com/6a89ea6dae.js" crossorigin="anonymous"></script>
+		<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+		<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+		<link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+		<!-- Liens Font awesome END-->
+		<!-- Lien et-line icomoon-->
+		<link rel="stylesheet" href="https://i.icomoon.io/public/temp/43ecfaabe8/UntitledProject/style.css">
+		<!-- Lien et-line END-->
 		<!-- Lien Feuille de style -->
-		<link rel="stylesheet" href="bootstrap-min.css">
-		<link rel="stylesheet" href="style-min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome-min.css">
+		<link rel="stylesheet" type="text/css" href="css/et-line-min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-min.css">
+		<link rel="stylesheet" type="text/css" href="style-min.css">
 		<!-- Lien Feuille de style END-->
 	</head>
 	<body>
@@ -70,14 +85,14 @@
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html"><img src="img/logo-fondblanc-lachouetteagence.svg" alt="Logo noir et blanc représentant une chouette, emblême de la chouette agence" height="40" />La chouette agence</a>
+							<a class="navbar-brand lien__logo--ff" href="index.html"><img src="img/logo-fondblanc-lachouetteagence.svg" alt="Logo noir et blanc représentant une chouette, emblême de la chouette agence" height="40" />La chouette agence</a>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 							</button>
 						</div>
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
-								<li><a href="home.html" aria-label="Lien vers la page d'accueil">Accueil</a></li>
+								<li><a href="index.html" aria-label="Lien vers la page d'accueil">Accueil</a></li>
 								<li><a href="contact.html" aria-label="Lien vers le formulaire de contact">Contact</a></li>
 							</ul>
 						</div>
@@ -91,7 +106,7 @@
 					<div class="row tight-width-whitespace">
 						<div class="col-sm-12">
 							<img src="img/logo-fondnoir-lachouetteagence.svg" class="center-block image-resize-mode" width="100" alt="Logo avec l'emblême de la chouette agence, en couleurs sur fond noir" />
-							<h1 class="text-center hero-bloc-text tc-white ">La chouette agence</h1>
+							<h1 class="text-center hero-bloc-text font-color-contrast">La chouette agence</h1>
 							<div class="text-center">
 								<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero" aria-label="Lien vers le formulaire de contact">Contactez-nous</a>
 							</div>
@@ -114,8 +129,8 @@
 								<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 							</div>
 							<h3 class="mg-md text-center">Web design</h3>
-							<p class="text-center">Votre site web reflète votre entreprise. Votre présence en ligne est votre vitrine.</p>
-							<p class="text-center">Nos experts en référencement vous aident à définir une stratégie marketing efficace en lien avec vos objectifs.</p>
+							<p class="text-center">Vous souhaitez un site Internet sur mesure ! Votre site web a besoin d'être amélioré !</p>
+							<p class="text-center">Nos webdesigners conçoivent votre site responsive et en écoconception : consultable sur smartphone, tablette et ordinateur.</p>
 						</div>
 						<div class="col-sm-4">
 							<div class="text-center">
@@ -131,7 +146,7 @@
 							</div>
 							<h3 class="mg-md text-center">Illustrations</h3>
 							<p class="text-center">Votre identité visuelle est notre coeur de métier. Elle doit refléter votre marque.</p>
-							<p class="text-center ">Nos designers créent des logos et illustrations correspondant à votre entreprise, accessible pour tout utilisateur.</p>
+							<p class="text-center ">Nos designers créent le logo et les illustrations correspondant à votre entreprise, respectant les critères d'accessibilité  pour tous vos clients.</p>
 						</div>
 					</div>
 					<div class="row voffset-lg voffset">
@@ -140,9 +155,9 @@
 							<div class="bloc tc-white text-center" id="bloc-3-blockquote">
 								<div class="row voffset-lg voffset">
 									<blockquote class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-									<p>La chouette agence est une excellente agence web !</p>
+									<p class="text-center">La chouette agence est une excellente agence web !</p>
 									<p class="text-center">Les webdesigners ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidés à doubler nos ventes en ligne à Lyon.</p>
-									<footer class="col-12 text-center">Maxime Guilbard, PDG de <cite>A vos fourchettes !</cite></footer>
+									<footer class="col-12 text-center blockquote__font--colorcontrast">Maxime Guilbard, PDG de <cite class="blockquote__font--colorcontrast">A vos fourchettes !</cite></footer>
 									</blockquote>
 								</div>
 							</div>
@@ -157,9 +172,9 @@
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace black-background">
 						<div class="col-sm-12">
-							<h2 class="mg-md text-center tc-white">Notre expertise stratégique et graphique du webdesign<br></h2>
-							<p>Nous souhaitons aider les entreprises de la région Lyonnaise à développer leur visibilité en ligne grâce à une stratégie webmarketing adaptée.</p>
-							<p>Nous collaborons depuis 15 ans avec des entrepreneurs créatifs et des entreprises du Grand Lyon. Une réponse cohérente à chaque secteur de métier est proposée. Bénéficiez de notre expertise en design graphique, webdesign et stratégie de référencement pour déterminer votre identité visuelle, crer un site de A à Z, mettre à jour une interface existante, apporter des contenus concrets et qualitatifs en réponse aux recherches de vos clients.<br><br><a class="ltc-white bold-link" href="contact.html" aria-label="Lien vers le formulaire de contact">Contactez notre équipe</a><br></p>
+							<h2 class="mg-md text-center font-color-contrast">Notre expertise stratégique et graphique du webdesign<br></h2>
+							<p class="text-center font-color-contrast">Nous souhaitons aider les entreprises de la région Lyonnaise à développer leur visibilité en ligne grâce à une stratégie webmarketing adaptée.</p>
+							<p class="text-center font-color-contrast">Nous collaborons depuis 15 ans avec des entrepreneurs créatifs et des entreprises du Grand Lyon. Une réponse cohérente à chaque secteur de métier est proposée. Bénéficiez de notre expertise en design graphique, webdesign et stratégie de référencement pour déterminer votre identité visuelle, crer un site de A à Z, mettre à jour une interface existante, apporter des contenus concrets et qualitatifs en réponse aux recherches de vos clients.<br><br><a class="font-color-contrast bold-link" href="contact.html" aria-label="Lien vers le formulaire de contact">Contactez notre équipe</a><br></p>
 						</div>
 					</div>
 				</div>
@@ -170,29 +185,29 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2 class="text-center">Exemples de réalisations pour nos clients en 2020</h2>
+							<h2 class="text-center">Nos réalisations de design pour nos clients en 2020</h2>
 						</div>
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/refonte-site-journal.svg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/refonte-site-journal.svg" alt="Photographie d'une pile de magazines ouverts" class="img-responsive portfolio-thumb" /></a>
+							<a href="index.html" data-lightbox="img/refonte-site-journal.svg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/refonte-site-journal.svg" alt="Photographie d'une pile de magazines ouverts" class="img-responsive portfolio-thumb" /></a>
 							<h3 class="mg-md text-center">Refonte du site web "Le Boulet Lyonnais"</h3>
-							<p class="text-center">Nous avons élaboré une nouvelle identité visuelle pour Le Boulet Lyonnais, journal local du premier arrondissement de Lyon./p>
+							<p class="text-center">Nous avons élaboré une nouvelle identité visuelle pour Le Boulet Lyonnais, journal local du premier arrondissement de Lyon.</p>
 						</div>
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/creation-site-photographe.svg" data-gallery-id="gallery-1" data-caption="Création du portfolio d'Ella UNJOLIBOUC, photographe portraitiste" data-frame="snapshot-lb"><img src="img/creation-site-photographe.svg" class="img-responsive portfolio-thumb" alt="Photographie d'Ella UNJOLIBOUC, photographe portraitiste"></a>
+							<a href="index.html" data-lightbox="img/creation-site-photographe.svg" data-gallery-id="gallery-1" data-caption="Création du portfolio d'Ella UNJOLIBOUC, photographe portraitiste" data-frame="snapshot-lb"><img src="img/creation-site-photographe.svg" class="img-responsive portfolio-thumb" alt="Photographie d'Ella UNJOLIBOUC, photographe portraitiste"></a>
 							<h3 class="mg-md text-center">Création du site web portfolio d'Ella UNJOLIBOUC</h3>
 							<p class="text-center">Nous avons conçu le site d'Ella : vous pouvez admirer son portfolio sur notre plateforme dédiée aux présentations artistiques.</p>
 						</div>
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/creation-site-voyageur.svg" data-gallery-id="gallery-1" data-caption="Création du site web de John BLOG, voyageur" data-frame="snapshot-lb"><img src="img/creation-site-voyageur.svg" class="img-responsive portfolio-thumb" alt="Présentation du matériel photo et vidéo de John BLOG"/></a>
+							<a href="index.html" data-lightbox="img/creation-site-voyageur.svg" data-gallery-id="gallery-1" data-caption="Création du site web de John BLOG, voyageur" data-frame="snapshot-lb"><img src="img/creation-site-voyageur.svg" class="img-responsive portfolio-thumb" alt="Présentation du matériel photo et vidéo de John BLOG"/></a>
 							<h3 class="mg-md text-center">Création du site "Le blog du John-Migrateur, chronique d'un voyageur"</h3>
 							<p class="text-center">Nous avons créé et illustré le site web qui sublime les vidéos et les articles de John BLOG, Blogueur photographe, vidéaste, mais surtout voyageur.</p>
 						</div>
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/creation-site-agence-mariage.svg" data-gallery-id="gallery-1" data-caption="Conception du site web de l'agence matrimoniale quatre mariages et un site web" data-frame="snapshot-lb"><img src="img/creation-site-agence-mariage.svg" class="img-responsive portfolio-thumb" alt="Illustration de la préparation d'un événement à l'agence matrimoniale quatre mariages et un site web"></a>
+							<a href="index.html" data-lightbox="img/creation-site-agence-mariage.svg" data-gallery-id="gallery-1" data-caption="Conception du site web de l'agence matrimoniale quatre mariages et un site web" data-frame="snapshot-lb"><img src="img/creation-site-agence-mariage.svg" class="img-responsive portfolio-thumb" alt="Illustration de la préparation d'un événement à l'agence matrimoniale quatre mariages et un site web"></a>
 							<h3 class="mg-md text-center">Conception du site web de l'agence "Quatre mariages et un site web"</h3>
 							<p class="text-center">Nous avons mis en évidence les prestations de qualité de l'agence "Quatre mariages et un site web" dans un site vitrine conçu à leur image.</p>
 						</div>
@@ -204,17 +219,17 @@
 			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 				<div class="container bloc-lg">
 					<div class="row">
-						<h2 class="mg-md text-center tc-white">Votre projet de webdesign</h2>
-						<p> Vous souhaitez nous confiez la création de votre logo, de votre site. Vous souhaiter optimiser le référencement de votre site web.</p>
+						<h2 class="mg-md text-center font-color-contrast">Votre projet de webdesign</h2>
+						<p class="text-center font-color-contrast"> Vous souhaitez nous confiez la création de votre logo, de votre site. Vous souhaiter optimiser le référencement de votre site web.<br><br></p>
 						<div class="col-sm-12 text-center">
-							<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" aria-label="Lien vers le formulaire de contact">Contactez notre équipe !</a>
+							<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero text-center" aria-label="Lien vers le formulaire de contact">Contactez notre équipe !</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!-- bloc-5-cta END -->
 			<!-- ScrollToTop Button -->
-			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" aria-label="bouton de raccourci pour retour en haut de page"><i class="fas fa-chevron-up"></i></a>
 			<!-- ScrollToTop Button END-->
 			<!-- Footer - bloc-8 -->
 			<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -225,24 +240,38 @@
 							<div class="row row-no-gutters social">
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://twitter.com/"><span class="fa fa-twitter icon-md"></span></a>
+										<a class="social font-color-contrast" href="https://twitter.com/" aria-label="Lien vers twitter"><i class="fab fa-twitter icon-md"></i></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
+										<a class="social font-color-contrast" href="https://www.facebook.com/" aria-label="Lien vers facebook"><i class="fab fa-facebook icon-md"></i></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
+										<a class="social font-color-contrast" href="https://dribbble.com/" aria-label="Lien vers dribbble"><i class="fab fa-dribbble icon-md"></i></i></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span></a>
+										<a class="social font-color-contrast" href="https://www.instagram.com/" aria-label="Lien vers instagram"><i class="fab fa-instagram icon-md"></i></a>
 									</div>
 								</div>
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="col-sm-3">
+								<a class="social font-color-contrast" href="https://fr.semrush.com" aria-label="Lien vers semrush">https://fr.semrush.com</a>
+							</div>
+							<div class="col-sm-3">
+								<a class="social font-color-contrast" href="https://fr.trustpilot.com" aria-label="Lien vers semrush">https://fr.trustpilot.com</a>
+							</div>
+							<div class="col-sm-3">
+								<a class="social font-color-contrast" href="https://www.dareboost.com/fr" aria-label="Lien vers semrush">https://www.dareboost.com/fr</a>
+							</div>
+							<div class="col-sm-3">
+								<a class="social font-color-contrast" href="https://wave.webaim.org/" aria-label="Lien vers semrush">https://wave.webaim.org/</a>
 							</div>
 						</div>
 					</div>
