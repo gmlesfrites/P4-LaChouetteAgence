@@ -17,12 +17,26 @@ body {
 }
 
 
-.font-color-contrast {
+.font__color-contrast--white {
     color: #ffffff;
+}
+
+.font__color-contrast--black {
+    color: #000000;
 }
 
 .blockquote__font--colorcontrast {
     color: #4d4d4d;
+}
+
+.btn__presentation--color{
+background-color: #653941;
+color: #ffffff;
+}
+
+.black-background {
+    background-color: #E9BD79;
+    padding: 40px 40px 40px 40px;
 }
 
 a,
@@ -770,10 +784,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
-}
+
 
 .bold-link {
     font-weight: 900;
