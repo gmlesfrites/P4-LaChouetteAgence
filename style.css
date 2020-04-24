@@ -17,12 +17,8 @@ body {
 }
 
 
-.font__color-contrast--white {
+.font-color-contrast {
     color: #ffffff;
-}
-
-.font__color-contrast--black {
-    color: #000000;
 }
 
 .blockquote__font--colorcontrast {
