@@ -151,7 +151,7 @@ a:hover:focus {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover:focus,
@@ -249,7 +249,7 @@ a:hover:focus {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn:hover:focus,
@@ -271,7 +271,7 @@ a:hover:focus {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .panel .btn-wire,
@@ -365,7 +365,7 @@ a:hover:focus {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0);
     width: 26px;
 }
 
@@ -596,7 +596,7 @@ a[data-lightbox]:hover:focus img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    color: #ffffff;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -964,7 +964,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: rgba(255, 255, 255);
     }
     .hero {
         padding: 50px 0;
