@@ -9,10 +9,20 @@ body {
 
 
 .lien__logo--ff {
-    font-family: "Amita", cursive;
+    @import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+    font-family: 'Amita', cursive;
     justify-content : center;
     text-decoration: none;
-    color: #000;
+    color: #000000;
+}
+
+
+.font-color-contrast {
+    color: #ffffff;
+}
+
+.blockquote__font--colorcontrast {
+    color: #4d4d4d;
 }
 
 a,
@@ -818,11 +828,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.svg");
+    background-image: url("img/background-dots-bg.svg");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.svg");
+    background-image: url("img\background-lines-h2-bg.svg");
 }
 
 .bg-banniere {
