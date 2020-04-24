@@ -474,7 +474,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover:focus,
 .btn-d:focus {
-    color: #FFF;
+    color: #ffffff;
     background: rgba(0, 0, 0, .3);
 }
 
@@ -563,7 +563,7 @@ a[data-lightbox]:hover:focus::before {
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
-    color: #FFF;
+    color: #ffffff;
     font-weight: 100;
     z-index: 1;
     position: absolute;
@@ -605,7 +605,7 @@ a[data-lightbox]:hover:focus img {
 }
 
 .close-lightbox {
-    color: #FFF;
+    color: #ffffff;
     font-size: 30px;
     position: absolute;
     top: 20px;
@@ -622,7 +622,7 @@ a[data-lightbox]:hover:focus img {
 .next-lightbox:hover:focus,
 .prev-lightbox:hover:focus {
     opacity: 1.0;
-    color: #FFF;
+    color: #ffffff;
 }
 
 .next-lightbox,
@@ -669,7 +669,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -710,7 +710,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -741,11 +741,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #ffffff;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -754,7 +754,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -793,38 +793,38 @@ h4 {
 }
 
 .tc-white {
-    color: #94360A!important;
+    color: #94360A;
 }
 
 .btn-atomic-tangerine {
     background: #94360A;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover:focus {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover:focus {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #94360A!important;
+    color: #94360a;
 }
 
 .ltc-atomic-tangerine:hover:focus {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -832,7 +832,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img\background-lines-h2-bg.svg");
+    background-image: url("img/background-lines-h2-bg.svg");
 }
 
 .bg-banniere {
