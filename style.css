@@ -19,6 +19,10 @@ body {
     color: #ffffff;
 }
 
+.font-contrast-black {
+    color: #000000;
+}
+
 .blockquote__font--colorcontrast {
     color: #4d4d4d;
 }
