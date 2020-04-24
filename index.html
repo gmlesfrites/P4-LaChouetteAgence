@@ -61,11 +61,11 @@
 		<link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 		<!--Liens Google Fonts END-->
-		<!-- Lien Feuille de style -->
-		<link rel="stylesheet" type="text/css" href="css/font-awesome-min.css">
-		<link rel="stylesheet" type="text/css" href="css/et-line-min.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-min.css">
-		<link rel="stylesheet" type="text/css" href="style-min.css">
+		<!-- Lien Feuille de style --> //TODO  penser à modifier les liens pour les fichiers minifiés
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/et-line.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<!-- Lien Feuille de style END-->
 	</head>
 	<body>
@@ -76,7 +76,7 @@
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<a class="navbar-brand lien__logo--ff" href="index.html"><img src="img/logo-fondblanc-lachouetteagence.svg" alt="Logo de la chouette agence, entreprise de webdesign à Lyon" height="40" />La chouette agence, votre agence de webdesign à Lyon</a>
+							<a class="navbar-brand lien__logo--ff" href="index.html"><img src="img/logo-fondblanc-lachouetteagence.svg" alt="Logo de la chouette agence, entreprise de webdesign à Lyon" height="40" />La chouette agence</a>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 							</button>
@@ -97,7 +97,7 @@
 					<div class="row tight-width-whitespace">
 						<div class="col-sm-12">
 							<img src="img/logo-fondnoir-lachouetteagence.svg" class="center-block image-resize-mode" width="100" alt="Logo de la chouette agence, Entreprise de webdesign à Lyon">
-							<h1 class="text-center hero-bloc-text font__color-contrast--white">La chouette agence</h1>
+							<h1 class="text-center hero-bloc-text font__color-contrast--white"><span class="entete_titre--ff">La chouette agence</span><br>Votre agence de webdesign à Lyon</h1>
 							<div class="text-center">
 								<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn__presentation--color" id="cta-hero" aria-label="Lien vers le formulaire de contact">Contactez-nous</a>
 							</div>
@@ -230,7 +230,7 @@
 							<p class="text-center white">&copy; 2020 - La chouette agence<br></p>
 							<div class="row row-no-gutters social">
 								<div class="col-sm-3">
-									<div class="text-center">
+									<div class="text-center">//TODO si je passe par le cdn supprimer le fontawesome.css et remettre le lien cdn 
 										<a class="social font-color-contrast" href="https://twitter.com/" aria-label="Lien vers twitter"><i class="fab fa-twitter"></i></a>
 									</div>
 								</div>
