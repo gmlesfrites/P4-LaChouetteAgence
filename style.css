@@ -1,76 +1,82 @@
 .link__logo {
-    margin: 2em;
-    font-family: 'Amita', cursive;
-    text-align: center;
-    text-decoration: none;
-    color: #000000; }
+margin: 2em;
+font-family: 'Amita', cursive;
+text-align: center;
+text-decoration: none;
+color: #000000; }
 
 .link__logo span {
-    background: url("img/logo-fondblanc-lachouetteagence.svg");
-    background-size: 1.5em 1.5em;
-    background-repeat: no-repeat;
-    padding-left: 1.6em; }
+background: url("img/logo-fondblanc-lachouetteagence.svg");
+background-size: 1.5em 1.5em;
+background-repeat: no-repeat;
+padding-left: 1.6em; }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: #FFF;
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+margin: 0;
+padding: 0;
+background: #FFF;
+overflow-x: hidden;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 html {
-    font-size: 16px;
-    font-family: "Helvetica", "Open Sans", sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
+font-size: 16px;
+font-family: "Helvetica", "Open Sans", sans-serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-weight: 400;
 }
-  body {
-    font-size: 16px;
-    background: #ffffff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
 
-  .bgc-white {
-    background-color: #FFFFFF;
-    color: #000000; }
+body {
+font-size: 16px;
+background: #ffffff;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale; }
 
-  .bgc-dark-slate-blue {
-    background-color: #364577;
-    color: white; }
+.bgc-white {
+background-color: #FFFFFF;
+color: #000000; }
 
-  .bgc-atomic-tangerine {
-    background-color: #94360A;
-    color: white; }
+.bgc-dark-slate-blue {
+background-color: #364577;
+color: white; }
 
-    .ltc-white {
-    background-color: #FFFFFF;
-    color: #000000; }
-    .ltc-white:hover:focus {
-      color: #cccccc; }
+.bgc-atomic-tangerine {
+background-color: #94360A;
+color: white; }
 
-  .ltc-atomic-tangerine {
-    color: #94360a; }
-    .ltc-atomic-tangerine:hover:focus {
-      color: #c27956; }
+.ltc-white {
+background-color: #FFFFFF;
+color: #000000; }
+.ltc-white:hover:focus {
+color: #cccccc; }
 
-  h1 {
-    font-size: 4.236rem; }
+.ltc-atomic-tangerine {
+color: #94360a; }
+.ltc-atomic-tangerine:hover:focus {
+color: #c27956; }
 
-  h2 {
-    font-size: 2.618rem; }
+h1 {
+font-size: 4.236rem; }
 
-  h3 {
-    font-size: 1.618rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333; }
+h2 {
+font-size: 2.618rem; }
 
-  p {
-    font-size: 1rem; }
+h3 {
+font-size: 1.618rem;
+text-transform: uppercase;
+font-weight: 700;
+color: #333333; }
+
+p {
+font-size: 1rem; }
+
+.fa-twitter, .fa-facebook, .fa-dribbble, .fa-instagram {
+text-align: center;
+font-size: 2em;
+margin: 0.5em; }
 
   .entete_titre--ff {
     font-family: "Amita", cursive; }
