@@ -4,10 +4,15 @@
     background: url("img/texture-paper.svg");
     background-size: 280px 280px;
 }
-
-
-
-
+.bloc-bg-texture::before {
+    content: "";
+    background-size: 2px 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 /*fond à point*/
 .bg-dots-bg {
     background-image: url("img/background-dots-bg.svg");
@@ -27,30 +32,47 @@
     background-image: url("img/image-de-presentation.svg");
 }
 
-
+//Proportions arrière-plan conservées
+.bg-center, .bg-l-edge, .bg-r-edge, .bg-t-edge, .bg-b-edge, .bg-tl-edge, .bg-bl-edge, .bg-tr-edge, .bg-br-edge, .bg-repeat {
+    background-size: auto;
+}
+.bg-repeat {
+    background: repeat;
+}
+.bg-t-edge {
+    background: top no-repeat;
+}
 
 .b-parallax {
     background-attachment: fixed;
 }
 
 
+/*Icônes Et-line*/
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
-
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px;
 }
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
 .icon-dark-slate-blue {
     color: $color-2nd;
- 
 }
+
+.fa-twitter, .fa-facebook, .fa-dribbble, .fa-instagram {
+    text-align: center;
+    font-size: 2em;
+    margin:0.5em;
+}
+
+
+
+
+
 
 a[data-lightbox] {
     position: relative;
