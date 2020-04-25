@@ -15,6 +15,17 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+//Marges et padding
+.row-no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.row-no-gutters > [class^="col-"],
+.row.row-no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 //Bloc Fond blanc
 .bgc-white {
     @include bloc-white;
