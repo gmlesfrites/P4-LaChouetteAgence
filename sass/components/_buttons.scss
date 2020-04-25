@@ -1,0 +1,42 @@
+.btn__presentation--color{
+    background-color: #94360A;
+    color: #ffffff;
+    }
+
+
+    .btn-atomic-tangerine {
+        @include bloc-1st-color;
+        &:hover:focus {
+            background: #c27956;
+            }
+    }
+    
+    .btn {
+        margin: 0 5px 5px 0;
+    }
+    
+    .btn.pull-right {
+        margin: 0 0 5px 5px;
+    }
+    
+    .btn-d,
+    .btn-d:hover:focus,
+    .btn-d:focus {
+        color: #ffffff;
+        background: rgba(0, 0, 0, .3);
+    }
+    
+    button:focus {
+        outline: none!important;
+    }
+    
+    .btn-rd {
+        border-radius: 40px;
+    }
+    
+    .btn-clean {
+        border: 1px solid rgba(0, 0, 0, .08);
+        border-bottom-color: rgba(0, 0, 0, .1);
+        text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+        box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    }

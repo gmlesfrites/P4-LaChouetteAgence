@@ -1,0 +1,57 @@
+h1 {
+    font-size: $fz-h1;
+    color: #ffffff;
+}
+
+
+h2 {
+    font-size: $fz-h2;
+}
+
+h3 {
+    font-size: $fz-h3;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+}
+
+p {
+    font-size: $fz-p;
+}
+
+
+
+.entete_titre--ff {
+    font-family: $ff-logo;
+}
+
+
+.statement-bloc-text {
+    font-style: italic;
+    text-align: center;
+    font-weight: lighter;
+    max-width: 520px;
+    margin: auto;
+}
+
+.tight-width-whitespace {
+    max-width: 600px;
+    margin: auto;
+}
+.med-width-whitespace {
+    max-width: 800px;
+    margin: auto ;
+}
+
+
+.cta-hero {
+    margin-top: 22px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+
+
+

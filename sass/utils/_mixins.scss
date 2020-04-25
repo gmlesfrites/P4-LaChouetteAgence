@@ -1,0 +1,22 @@
+//Fond Blanc
+@mixin bloc-white {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+//Fond orange
+@mixin bloc-1st-color {
+    background-color: $color-1st;
+    color:white;
+}
+
+//Fond bleu
+@mixin bloc-2nd-color {
+    background-color: $color-2nd;
+    color:white;
+}
+
+//TEST
+@mixin test {
+    border: 1px 1px red;
+}
