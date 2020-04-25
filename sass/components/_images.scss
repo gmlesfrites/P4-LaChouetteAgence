@@ -1,27 +1,34 @@
-
-
-
-
+//Types de fonds
+/*Texture papier*/
 .texture-paper::before {
     background: url("img/texture-paper.svg");
     background-size: 280px 280px;
 }
 
+
+
+
+/*fond à point*/
 .bg-dots-bg {
     background-image: url("img/background-dots-bg.svg");
+    background-repeat: repeat;
 }
-
+/*fond à lignes*/
 .bg-lines-h2-bg {
     background-image: url("img/background-lines-h2-bg.svg");
+    background-repeat: repeat;
 }
-
+/*Image top telephone*/
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.svg");
 }
-
+/*Image down work*/
 .bg-presentation {
     background-image: url("img/image-de-presentation.svg");
 }
+
+
+
 .b-parallax {
     background-attachment: fixed;
 }
