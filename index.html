@@ -104,7 +104,7 @@
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li><a class="link__nav" href="index.html" aria-label="Lien vers la page d'accueil">Accueil</a></li>
-							<li><a class="link__nav" href="#portfolio" aria-label="Lien vers le formulaire de contact">Contact</a></li>
+							<li><a class="link__nav" href="contact.html" aria-label="Lien vers le formulaire de contact">Contact</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -120,9 +120,11 @@
 						<div class="col-sm-12">
 							<img src="img/logo-fondnoir-lachouetteagence.svg" class="center-block image-resize-mode" width="100" alt="Logo de la chouette agence, Entreprise de webdesign à Lyon">
 							<h1 class="text-center hero-bloc-text font__color-contrast--white"><span class="entete_titre--ff">La chouette agence</span><br>Votre agence de webdesign à Lyon</h1>
-							<div class="text-center">
-								<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn__presentation--color" id="cta-hero" aria-label="Lien vers le formulaire de contact">Découvrez nos réalisations</a>
-							</div>
+						</div>
+						<div class="text-center">
+							<label for="réa">Découvrez nos réalisations</label>
+							<input type="button" id="réa" class="btn btn-lg btn-clean btn-rd cta-hero btn__presentation--color" id="portfolio" aria-label="Lien direct vers nos réalisations" value="Découvrez nos réalisations" onclick="javascript:location.href='#portfolio'">
+						</div>
 						</div>
 					</div>
 				</div>
@@ -194,7 +196,8 @@
 			</div>
 			<!-- bloc-3-what-i-do END -->
 			<!-- bloc-4-portfolio -->
-			<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="portfolio">
+			<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc">
+				<a href="#portfolio" aria-label="lien direct vers nos réalisations"></a>
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-12 text-center">
