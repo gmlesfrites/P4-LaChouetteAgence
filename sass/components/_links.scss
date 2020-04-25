@@ -1,0 +1,38 @@
+//Header -- lien sur le logo
+.link__logo {
+    font-family: 'Amita', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    span {
+    background: url("img/logo-fondblanc-lachouetteagence.svg");
+    background-size: 1.5em 1.5em;
+    background-repeat: no-repeat;
+    padding-left: 1.6em;
+    }
+}
+
+
+
+a, button:focus {
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    :hover:focus {
+    cursor: pointer;
+    }
+}
+
+.bold-link {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.link__nav {
+    @include bloc-white;
+}
+
+
