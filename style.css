@@ -1,3 +1,16 @@
+.link__logo {
+    margin: 2em;
+    font-family: 'Amita', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: #000000; }
+
+.link__logo span {
+    background: url("img/logo-fondblanc-lachouetteagence.svg");
+    background-size: 1.5em 1.5em;
+    background-repeat: no-repeat;
+    padding-left: 1.6em; }
+
 body {
     margin: 0;
     padding: 0;
