@@ -1,58 +1,71 @@
-.link__logo {
-margin: 2em;
-font-family: 'Amita', cursive;
-text-align: center;
-text-decoration: none;
-color: #000000; }
-
-.link__logo span {
-background: url("img/logo-fondblanc-lachouetteagence.svg");
-background-size: 1.5em 1.5em;
-background-repeat: no-repeat;
-padding-left: 1.6em; }
-
-.link__nav {
-color: black;
-}
-
-body {
-margin: 0;
-padding: 0;
-background: #FFF;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
-
 html {
-font-size: 16px;
-font-family: "Helvetica", "Open Sans", sans-serif;
-box-sizing: border-box;
-word-wrap: break-word;
-margin: 0;
-padding: 0;
-font-weight: 400;
-}
-
+    font-size: 16px;
+    font-family: "Helvetica", "Open Sans", sans-serif;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    }
 body {
-background: #ffffff;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale; }
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+    font-size: 1.725em; 
+}
+h2 {
+    font-size: 1.5em; 
+}
+h3 {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333; 
+}
+p {
+    font-size: 1em; 
+}
+.fa-twitter, .fa-facebook, .fa-dribbble, .fa-instagram {
+text-align: center;
+font-size: 2em;
+}
+.link__logo {
+    margin: 2em;
+    font-family: 'Amita', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: #000000; 
+}
+.link__logo span {
+    background: url("img/logo-fondblanc-lachouetteagence.svg");
+    background-size: 1.5em 1.5em;
+    background-repeat: no-repeat;
+    padding-left: 1.6em;
+}
+.link__nav {
+    color: black;
+}
 
 .form-group {
-padding: 1em 0;
+    padding: 1em 0;
 }
 
 .bgc-white {
-background-color: #FFFFFF;
-color: #000000; }
-
+    background-color: #FFFFFF;
+    color: #000000; 
+}
 .bgc-dark-slate-blue {
-background-color: #364577;
-color: white; }
-
+    background-color: #364577;
+    color: white; 
+}
 .bgc-atomic-tangerine {
-background-color: #94360A;
-color: white; }
+    background-color: #94360A;
+    color: white; 
+}
 
 .ltc-white {
 background-color: #FFFFFF;
@@ -65,26 +78,7 @@ color: #94360a; }
 .ltc-atomic-tangerine:hover:focus {
 color: #c27956; }
 
-h1 {
-font-size: 1.725em; }
 
-h2 {
-font-size: 1.5em; }
-
-h3 {
-font-size: 1.125em;
-text-transform: uppercase;
-font-weight: 700;
-color: #333333; }
-
-p {
-font-size: 1em; }
-
-
-.fa-twitter, .fa-facebook, .fa-dribbble, .fa-instagram {
-text-align: center;
-font-size: 2em;
-}
 .social {
 padding: 0.6em;
 }
