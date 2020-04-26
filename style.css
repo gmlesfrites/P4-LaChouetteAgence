@@ -8,6 +8,7 @@ html {
     font-weight: 400;
     }
 body {
+    font-size: 1rem;
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -15,13 +16,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 h1 {
-    font-size: 1.725em; 
+    font-size: 2.369em;
+    line-height: 1.6; 
 }
 h2 {
-    font-size: 1.5em; 
+    font-size: 1.777em;
+    padding-bottom:1em;
 }
 h3 {
-    font-size: 1.125em;
+    font-size: 1.333em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333; 
@@ -29,6 +32,16 @@ h3 {
 p {
     font-size: 1em; 
 }
+legend {
+    font-size: 1.333em;
+    font-weight: 600;
+}
+
+label {
+    font-size: 1em;
+    font-weight: 300;
+}
+
 .fa-twitter, .fa-facebook, .fa-dribbble, .fa-instagram {
 text-align: center;
 font-size: 2em;
@@ -203,10 +216,6 @@ a:hover:focus {
 .row.row-no-gutters > [class^="col-"] {
     padding-right: 0;
     padding-left: 0;
-}
-
-#bloc-1-hero h1 {
-    font-size: 32px;
 }
 
 .navbar {
@@ -520,15 +529,6 @@ a[data-lightbox]:hover:focus img {
 }
 
 
-
-.hero-bloc-text {
-    font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
-
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -551,8 +551,7 @@ a[data-lightbox]:hover:focus img {
     margin-top: 22px;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    padding: 12px 28px;
     font-weight: 700;
 }
 

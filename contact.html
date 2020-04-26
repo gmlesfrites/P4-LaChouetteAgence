@@ -116,7 +116,7 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="text-center hero-bloc-text font-color-contrast">Concrétisez votre projet !<br> Contactez La Chouette Agence,<br>entreprise de webdesign à Lyon !</h1>
+						<h1 class="text-center font-color-contrast">Concrétisez votre projet !<br> Contactez La Chouette Agence,<br>entreprise de webdesign à Lyon !</h1>
 					</div>
 				</div>
 			</div>
@@ -127,27 +127,32 @@
 			<section class="container bloc-lg">
 				<div class="row">
 					<h2 class="text-center tight-width-whitespace">Vous avez un projet de conception graphique ou webdesign.</h2>
-					<p class="text-center tight-width-whitespace">Contactez-nous via le formulaire ci-dessous.</p>
+					<p class="text-center tight-width-whitespace space">Contactez-nous via le formulaire ci-dessous.</p>
 					<div class="row">
 						<form id="form_1" method="post" action="form_1.php">
 							<fieldset class="form-group">
-								<label for="name">Votre nom</label>
+								<legend>Votre nom</legend>
+								<label for="name">Merci de renseigner votre nom.</label>
 								<input type="text" id="name" name="Votre nom" class="form-control" required autocomplete="on" placeholder="John DOE" maxlength="200" aria-label="Merci de renseigner votre nom, ce champ est oligatoire">
 							</fieldset>
 							<fieldset class="form-group">
-								<label for="email">Votre adresse email</label>
+								<legend>Votre adresse email</legend>
+								<label for="email">Merci d'indiquer votre adresse email.</label>
 								<input type="email" id="email" name="Votre email" class="form-control" required autocomplete="on" placeholder="johndoe@mail.fr" maxlength="250" aria-label="Merci d'indiquer votre adresse email, ce champ est obligatoire">
 							</fieldset>
 							<fieldset class="form-group">
-								<label for="telephone">Votre numéro de téléphone</label>
+								<legend>Vos Coordonnées téléphoniques</legend>
+								<label for="telephone">Merci d'indiquer votre numéro de téléphone pour que nous puissions vous rappeler.</label>
 								<input type="tel" id="telephone" name="Vos coordonnées téléphoniques" class="form-control" required autocomplete="on" placeholder="0401020304" maxlength="13" minlength="10" aria-label="Merci d'indiquer votre numéro de téléphone pour que nous puissions vous rappeler">
 							</fieldset>
 							<fieldset class="form-group">
-								<label for="notoriete">Comment nous avez-vous connu ? </label>
-								<input type="text" id="notoriete" name="Notoriété" class="form-control" placeholder="moteur de recherche, réseaux sociaux, etc." autocomplete="on" maxlength="400" aria-label="Vous pouvez indiquer comment vous nous avez connu, ce champ n'est pas obligatoire">
+								<legend>Comment nous avez-vous connus ?</legend>
+								<label for="notoriete">Vous pouvez indiquer comment vous nous avez connus.</label>
+								<input type="text" id="notoriete" name="Notoriété" class="form-control" placeholder="moteur de recherche, réseaux sociaux, etc." autocomplete="on" maxlength="400" aria-label="Vous pouvez indiquer comment vous nous avez connus, ce champ n'est pas obligatoire">
 							</fieldset>
 							<fieldset class="form-group">
-								<label for="message">Votre projet de webdesign</label>
+								<legend>Votre projet de webdesign</legend>
+								<label for="message">Merci de préciser votre projet de webdesign</label>
 								<textarea class="form-control" id="message" name="Votre projet" rows="4" cols="50" maxlength="1000" required placeholder="Mon projet de refonte de site" autocomplete="on" aria-label="Merci de préciser votre projet, ce champ est obligatoire"></textarea>
 							</fieldset>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Ci-après le bouton d'envoi de votre formulaire">Envoyer</button>
