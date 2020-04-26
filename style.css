@@ -104,7 +104,7 @@ color: #ffffff;
 }
 
 .black-background {
-    background-color: rgba(256, 189, 121, 0.8);
+    background-color: rgba(255, 189, 121, 0.7);
     color: black;
     padding: 40px;
 }
@@ -134,9 +134,6 @@ a:hover:focus {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
